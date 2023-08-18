@@ -1,1 +1,1 @@
-python detect.py --weights /home/hikari/code/yolov5/run/spiral/exp21/weights/best.pt --source /home/hikari/code/Get_noisy/noisy/100 --project /home/hikari/code/Get_noisy/DSC/ --device 1
+python detect.py --weights weights/urpc/ours-amsp-uod.pt --source urpc --device 0
