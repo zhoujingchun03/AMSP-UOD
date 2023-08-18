@@ -2,6 +2,8 @@
 
 This code repository includes the base run code for AMSP-UOD, see folder `./weights` for the weights file, and see folder `./result` for the PR curve graph. There is some of the urpc test data in folder `./urpc`, and you can get the recognition results using `./det.sh`
 
+##### Please note that this repository is used as an anonymous code base and the accounts used do not contain any personal information. The anonymity requirement is met.
+
 ## 1. Deploy Conda environment
 ```Command Line
 conda create -n AMSP_UOD python==3.10
