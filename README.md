@@ -36,14 +36,14 @@ conda activate AMSP_UOD
 
 ### Showcase
 
-## URPC
+#### URPC
 ![img1](./result/Traditional-NMS/URPC-Ours_AMSP_UOD.png)
-## RUOD
+#### RUOD
 ![img2](./result/Traditional-NMS/RUOD-Ours_AMSP_UOD.png)
 
 For more details check out `./result` folder, we give the experimental result plots for some of the ablation experiments.
 
-# Cite
+## Cite
 You can cite our work in the following format:
 
 ### arXiv
