@@ -1,36 +1,40 @@
-# Quick Start
+# AMSP-UOD
+
+The repository is an open source repository for AMSP-UOD, which aims to provide some new ideas for underwater target detection, and the paper has been accepted by AAAI-24.
+
+## Quick Start
 
 This code repository includes the base run code for AMSP-UOD, see folder `./weights` for the weights file, and see folder `./result` for the PR curve graph. There is some of the urpc test data in folder `./urpc`, and you can get the recognition results using `./det.sh`
 
-## 1. Deploy Conda environment
+### 1. Deploy Conda environment
 ```Command Line
 conda create -n AMSP_UOD python==3.10
 ```
 
-## 2. Install package dependencies
+### 2. Install package dependencies
 ```Command Line
 pip install -r requirements.txt
 ```
 
-## 3. Train Model (Optional, requires Datasets and Cuda)
+### 3. Train Model (Optional, requires Datasets and Cuda)
 ```Command Line
 conda activate AMSP_UOD
 ./train.sh 0
 ```
 
-## 4. Test Model (Optional, requires Datasets and Cuda)
+### 4. Test Model (Optional, requires Datasets and Cuda)
 ```Command Line
 conda activate AMSP_UOD
 ./val.sh
 ```
 
-## 5. Dectet
+### 5. Dectet
 ```Command Line
 conda activate AMSP_UOD
 ./det.sh
 ```
 
-# Showcase
+### Showcase
 
 ## URPC
 ![img1](./result/Traditional-NMS/URPC-Ours_AMSP_UOD.png)
@@ -55,5 +59,4 @@ You can cite our work in the following format:
 ### AAAI-24
 ```bibtex
 Accepted, will update shortly.
-}
 ```
