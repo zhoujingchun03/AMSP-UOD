@@ -2,8 +2,6 @@
 
 This code repository includes the base run code for AMSP-UOD, see folder `./weights` for the weights file, and see folder `./result` for the PR curve graph. There is some of the urpc test data in folder `./urpc`, and you can get the recognition results using `./det.sh`
 
-##### Please note that this repository is used as an anonymous code base and the accounts used do not contain any personal information. The anonymity requirement is met.
-
 ## 1. Deploy Conda environment
 ```Command Line
 conda create -n AMSP_UOD python==3.10
@@ -38,3 +36,24 @@ conda activate AMSP_UOD
 ![img1](./result/Traditional-NMS/URPC-Ours_AMSP_UOD.png)
 ## RUOD
 ![img2](./result/Traditional-NMS/RUOD-Ours_AMSP_UOD.png)
+
+For more details check out `./result` folder, we give the experimental result plots for some of the ablation experiments.
+
+# Cite
+You can cite our work in the following format:
+
+### arXiv
+```bibtex
+@article{zhou2023amsp,
+  title={AMSP-UOD: When Vortex Convolution and Stochastic Perturbation Meet Underwater Object Detection},
+  author={Zhou, Jingchun and He, Zongxin and Lam, Kin-Man and Wang, Yudong and Zhang, Weishi and Guo, ChunLe and Li, Chongyi},
+  journal={arXiv preprint arXiv:2308.11918},
+  year={2023}
+}
+```
+
+### AAAI-24
+```bibtex
+Accepted, will update shortly.
+}
+```
