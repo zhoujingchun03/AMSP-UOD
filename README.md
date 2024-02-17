@@ -23,6 +23,7 @@ conda activate AMSP_UOD
 ```
 
 ### 4. Test Model (Optional, requires Datasets and Cuda)
+Note that when testing model performance, change the val option in urpc.yaml from self-divided data to urpc's B-list data.
 ```Command Line
 conda activate AMSP_UOD
 ./val.sh
