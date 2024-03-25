@@ -1,6 +1,6 @@
-# AMSP-UOD
+# AMSP-UOD | AAAI-24
 
-The repository is an open source repository for AMSP-UOD, which aims to provide some new ideas for underwater target detection, and the paper has been accepted by AAAI-24.
+The repository is an open source repository for AMSP-UOD, which aims to provide some new ideas for underwater object detection, and the paper has been accepted by AAAI-24.
 
 ## Quick Start
 
@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Train Model (Optional, requires Datasets and Cuda)
+Our default code uses NMS-Similar algorithm from the paper, and you should either turn off val validation or post-process that use the traditional NMS algorithm before training.
 ```Command Line
 conda activate AMSP_UOD
 ./train.sh 0
@@ -59,5 +60,13 @@ You can cite our work in the following format:
 
 ### AAAI-24
 ```bibtex
-Accepted, will update shortly.
+@inproceedings{AMSP-UOD,
+  title={AMSP-UOD: When Vortex Convolution and Stochastic Perturbation Meet Underwater Object Detection},
+  author={Zhou, Jingchun and He, Zongxin and Lam, Kin-Man and Wang, Yudong and Zhang, Weishi and Guo, ChunLe and Li, Chongyi},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={},
+  number={},
+  pages={},
+  year={2024}
+}
 ```
