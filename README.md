@@ -18,6 +18,7 @@ pip install -r requirements.txt
 
 ### 3. Train Model (Optional, requires Datasets and Cuda)
 Our default code uses NMS-Similar algorithm from the paper, and you should either turn off val validation or post-process that use the traditional NMS algorithm before training.
+This is done by switching the file `./utils/general.py` from lines 950 to 953.
 ```Command Line
 conda activate AMSP_UOD
 ./train.sh 0
